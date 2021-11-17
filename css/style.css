@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat+Brush&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+:root{
+    --pink: #f246b3;
+    --black: #000000;
+    --beige: #f5f5f3;
+}
+
+hr{
+    background: var(--pink);
+    width: 50px;
+    height: 10px;
+    border: none;
+    margin: 10px 0;
+    margin: auto;
+    
+}
+
+span{
+    color: var(--pink);
+    text-transform: uppercase;
+}
+
+body{
+    font-family: 'Caveat Brush', cursive;
+   
+}
+
+
+/*---------HEADER------------*/
+header{
+    height: 800px;  
+    background: url(../img/TexturesCom_WoodPlanksBare0091_2_M.jpg) no-repeat;
+    background-size: 2000px;
+}
+
+.logo{
+    padding: 10px 0;
+    text-transform: uppercase;
+    display: inline;
+    font-size: 60px;
+    margin: auto;
+}
+
+nav{
+    margin-left: 20px;
+    
+
+}
+
+nav a{
+    color: var(--black);
+    margin-right: 20px;
+    
+}
+
+nav ul{
+   float: right;
+   margin-right: 20px; 
+    
+}
+
+nav ul li{
+    color: var(--black);   
+    text-transform: uppercase;
+    display: inline-block;
+    margin: 0 5px;
+}
+
+/*--------------CERF LOGO-----------------*/
+.cerf{
+    width: 210px;
+    position: absolute;
+    z-index: 1;
+   
+}
+
+.triangle{
+    display : inline-block;
+    height : 0;
+    width : 0;
+    border-top : 150px solid var(--pink);
+    border-left : 150px solid transparent;
+    position: relative;
+    top: 30px;
+    left: 190px;
+}
+
+.boite{
+    margin-left: 700px;
+    margin-top: 200px;
+}
+
+/*--------------OUR STORY--------------------*/
+.box_fluid{
+    background: var(--beige);
+    width: 100%;
+    display: flex;
+}
+
+.box{
+    text-align: center;
+    margin: 10% 20%;
+    
+}
+
+.graine{
+    width: 150px;
+}
+
+.asperges{
+    width: 3000px;
+}
+
+/*----------------FARE--------------------*/
+.soap{
+    width: 5000px;
+}
+
+.box{
+    text-align: center;
+    margin: 10% 0;
+}
+
+/*------------------DRINK---------------*/
+.moule{
+    width: 1500px;
+}
+
+.box{
+    text-align: center;
+    margin: 10% 0;
+}
+
+/*----------------------EGGS--------------------*/
+.eggs{
+    width: 100%;
+}
+
+/*------------FOOTER CONTACT-------------*/
+.box_footer{
+    
+    height: 100px;
+    margin: 10% 5%;
+    
+}
+
+h3{
+    font-size: 60px;
+}
+
+.txt{
+    margin: 5% 0;
+}
+
+.social{
+    position: relative;
+    bottom: 20px;
+    left: 1700px;
+    color: var(--pink);  
+}
